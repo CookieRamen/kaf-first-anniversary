@@ -1,1 +1,3 @@
-<p>index works!</p>
+<div class="animate-texts">
+  <p *ngFor="let data of bgText; let i = index" class="animate-text text{{i+1}}">{{data}}</p>
+</div>
