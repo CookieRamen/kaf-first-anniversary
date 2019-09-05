@@ -22,7 +22,7 @@
 
   @for $i from 0 through 50 {
     .text#{$i} {
-      animation: animate-text#{$i} #{$i * $num-top + 30}s linear alternate infinite;
+      animation: animate-text#{$i} #{$i * $num-top + 30}s ease-in-out alternate infinite;
       transform: rotateZ(random(5) + deg);
     }
 
