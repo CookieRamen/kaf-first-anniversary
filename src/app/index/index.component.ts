@@ -84,6 +84,7 @@ export class IndexComponent implements OnInit {
     * 指定した回数分繰り返して this.bgTextData からランダムな行を拾い
     * this.bgText に挿入する
     */
+    for (let i = 0; i < 20; i++) {
       this.bgText.push(this.bgTextData[Math.floor(Math.random() * this.bgTextData.length)]);
     }
   }
