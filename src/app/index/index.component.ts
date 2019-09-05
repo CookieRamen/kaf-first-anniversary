@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./index.component.scss']
 })
 export class IndexComponent implements OnInit {
+  // 魔女 歌詞データ
   bgTextData: string[] = [
     'これは魔法だ',
     '生きた日々を忘れた私の奇跡だ',
@@ -71,12 +72,18 @@ export class IndexComponent implements OnInit {
     '証明を探している'
   ];
 
+  // 実際に表示されるデータに代入するための変数
   bgText: string[] = [];
 
   constructor() { }
 
+  // フレームワークの準備が完了した際のトリガー
   ngOnInit() {
-    for (let i = 0; i < 11; i++) {
+    /*
+    * 背景歌詞用
+    * 指定した回数分繰り返して this.bgTextData からランダムな行を拾い
+    * this.bgText に挿入する
+    */
       this.bgText.push(this.bgTextData[Math.floor(Math.random() * this.bgTextData.length)]);
     }
     console.log(this.bgText);
