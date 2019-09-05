@@ -6,35 +6,36 @@
   left: 0;
   background: linear-gradient(45deg, rgba(119, 0, 255, .6), rgba(230, 0, 255, .6));
   overflow: hidden;
-}
 
-.animate-text {
-  position: fixed;
-  color: rgba(255, 255, 255, .3);
-  font-size: 6rem;
-  font-family: serif;
-  font-weight: bold;
-  width: 2000px;
-  text-align: center;
-}
-
-
-$num-top: 10;
-
-@for $i from 0 through 50 {
-  .text#{$i} {
-    animation: animate-text#{$i} #{$i * $num-top + 30}s linear alternate infinite;
-    transform: rotateZ(random(5) + deg);
+  .animate-text {
+    position: fixed;
+    color: rgba(255, 255, 255, .3);
+    font-size: 6rem;
+    font-family: serif;
+    font-weight: bold;
+    width: 2000px;
+    text-align: center;
   }
 
-  @keyframes animate-text#{$i} {
-    0% {
-      top: percentage(random(100) / 50);
-      left: percentage(random(100) / 100) - 50%;
+
+  $num-top: 10;
+
+  @for $i from 0 through 50 {
+    .text#{$i} {
+      animation: animate-text#{$i} #{$i * $num-top + 30}s linear alternate infinite;
+      transform: rotateZ(random(5) + deg);
     }
-    100% {
-      top: percentage(random(100) / 50);
-      left: percentage(random(100) / 50) - 75%;
+
+    @keyframes animate-text#{$i} {
+      0% {
+        top: percentage(random(100) / 50);
+        left: percentage(random(100) / 100) - 50%;
+      }
+      100% {
+        top: percentage(random(100) / 50);
+        left: percentage(random(100) / 50) - 75%;
+      }
     }
   }
+
 }
