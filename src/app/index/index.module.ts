@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { IndexRoutingModule } from './index-routing.module';
-import { IndexComponent } from './index.component';
+import {IndexRoutingModule} from './index-routing.module';
+import {IndexComponent} from './index.component';
 import {ParticlesModule} from 'ng-particle';
 
 
@@ -10,8 +10,9 @@ import {ParticlesModule} from 'ng-particle';
   declarations: [IndexComponent],
   imports: [
     CommonModule,
-    IndexRoutingModule
+    IndexRoutingModule,
     ParticlesModule,
-  ]
+  ],
 })
-export class IndexModule { }
+export class IndexModule {
+}
