@@ -86,7 +86,6 @@ export class IndexComponent implements OnInit {
     */
       this.bgText.push(this.bgTextData[Math.floor(Math.random() * this.bgTextData.length)]);
     }
-    console.log(this.bgText);
   }
 
 }
