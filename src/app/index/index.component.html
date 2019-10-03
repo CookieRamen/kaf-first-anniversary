@@ -1,10 +1,1 @@
-<!-- 背景用Particles Canvas -->
-<div [ngStyle]="particleStyle" class="particles-container">
-  <canvas dParticles [params]="particleParams" [style.width.%]="particleWidth" [style.height.%]="particleHeight"></canvas>
-</div>
-
-<!-- ランダムに流れる歌詞 -->
-<div class="animate-texts">
-  <!-- bgText の配列分繰り返し -->
-  <p *ngFor="let data of bgText; let i = index" class="animate-text text{{i+1}}">{{data}}</p>
-</div>
+<app-animate-bg [bgTextData]="bgTextData"></app-animate-bg>
