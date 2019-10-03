@@ -6,6 +6,9 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./index/index.module').then(m => m.IndexModule)
+  }, {
+    path: 'questionnaire',
+    loadChildren: () => import('./questionnaire/questionnaire.module').then(m => m.QuestionnaireModule)
   }
 ];
 
