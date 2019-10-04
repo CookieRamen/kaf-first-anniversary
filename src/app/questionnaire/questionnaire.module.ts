@@ -5,6 +5,7 @@ import {QuestionnaireRoutingModule} from './questionnaire-routing.module';
 import {QuestionnaireComponent} from './questionnaire.component';
 import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
+import {OrderModule} from 'ngx-order-pipe';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
     QuestionnaireRoutingModule,
     NgxChartsModule,
     AnimateBgModule,
+    OrderModule,
   ]
 })
 export class QuestionnaireModule {

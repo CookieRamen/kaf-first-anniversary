@@ -5,6 +5,7 @@ import {RouterTestingModule} from '@angular/router/testing';
 import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {ParticlesModule} from 'ng-particle';
 import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
+import {OrderModule} from 'ngx-order-pipe';
 
 describe('QuestionnaireComponent', () => {
   let component: QuestionnaireComponent;
@@ -17,6 +18,7 @@ describe('QuestionnaireComponent', () => {
         NgxChartsModule,
         ParticlesModule,
         AnimateBgModule,
+        OrderModule,
       ],
       declarations: [ QuestionnaireComponent ]
     })

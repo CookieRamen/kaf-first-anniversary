@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-questionnaire',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./questionnaire.component.scss']
 })
 export class QuestionnaireComponent implements OnInit {
-  view: any[] = [700, 400];
+  show = false;
 
   bgTextData: string[] = [
     'すれちがいをしてたんだ僕らは',
@@ -62,57 +62,111 @@ export class QuestionnaireComponent implements OnInit {
   // アンケートデータ
   original = [
     {
-      name: '1',
-      value: 1,
+      name: '不可解',
+      value: 12
     }, {
-      name: '2',
-      value: 1,
+      name: 'そして花になる',
+      value: 8
     }, {
-      name: '3',
-      value: 1,
+      name: '忘れてしまえ',
+      value: 6
     }, {
-      name: '4',
-      value: 1,
+      name: '糸',
+      value: 5
     }, {
-      name: '5',
-      value: 1,
+      name: '雛鳥',
+      value: 5
     }, {
-      name: '6',
-      value: 1,
+      name: 'quiz',
+      value: 4
     }, {
-      name: '7',
-      value: 1,
+      name: '心臓と絡繰',
+      value: 4
     }, {
-      name: '8',
-      value: 1,
+      name: '未確認少女進行形',
+      value: 4
+    }, {
+      name: '夜行バスにて',
+      value: 3
+    }, {
+      name: 'Re:HEROINES',
+      value: 3
+    }, {
+      name: 'エリカ',
+      value: 2
+    }, {
+      name: '過去を喰らう',
+      value: 2
+    }, {
+      name: '祭壇',
+      value: 2
+    }, {
+      name: '魔女',
+      value: 2
+    }, {
+      name: '夜が降り止む前に',
+      value: 1
     }
   ];
 
   cover = [
     {
-      name: '1',
-      value: 1,
+      name: '死神',
+      value: 17
     }, {
-      name: '2',
-      value: 1,
+      name: 'フロントメモリー',
+      value: 7
     }, {
-      name: '3',
-      value: 1,
+      name: '告白',
+      value: 6
     }, {
-      name: '4',
-      value: 1,
+      name: '回る空うさぎ',
+      value: 5
     }, {
-      name: '5',
-      value: 1,
+      name: '猛独が襲う',
+      value: 3
     }, {
-      name: '6',
-      value: 1,
+      name: '死んでしまったのだろうか',
+      value: 3
     }, {
-      name: '7',
-      value: 1,
+      name: '少女レイ',
+      value: 3
     }, {
-      name: '8',
-      value: 1,
+      name: 'アストロノーツ',
+      value: 3
+    }, {
+      name: 'またねがあれば',
+      value: 3
+    }, {
+      name: '想像フォレスト',
+      value: 2
+    }, {
+      name: '忘れたいことばっかだ',
+      value: 2
+    }, {
+      name: 'ダンスが僕の恋人',
+      value: 2
+    }, {
+      name: 'うつくしいひと',
+      value: 2
+    }, {
+      name: 'ハミングがきこえる',
+      value: 1
+    }, {
+      name: 'bin',
+      value: 1
+    }, {
+      name: '白ゆき',
+      value: 1
+    }, {
+      name: 'さよならミッドナイト',
+      value: 1
+    }, {
+      name: '五月雨',
+      value: 1
+    }, {
+      name: '凍えそうだ',
+      value: 1
     }
   ];
 
@@ -120,6 +174,9 @@ export class QuestionnaireComponent implements OnInit {
   }
 
   ngOnInit() {
+    setTimeout(() => {
+      this.show = true;
+    }, 3000);
   }
 
 }
