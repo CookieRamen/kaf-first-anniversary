@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./questionnaire.component.scss']
 })
 export class QuestionnaireComponent implements OnInit {
+  view: any[] = [700, 400];
 
-  // 魔女 歌詞データ
   bgTextData: string[] = [
     'すれちがいをしてたんだ僕らは',
     '痛みを避けて意味を探した',
@@ -59,7 +59,65 @@ export class QuestionnaireComponent implements OnInit {
     'きっと'
   ];
 
-  constructor() { }
+  // アンケートデータ
+  original = [
+    {
+      name: '1',
+      value: 1,
+    }, {
+      name: '2',
+      value: 1,
+    }, {
+      name: '3',
+      value: 1,
+    }, {
+      name: '4',
+      value: 1,
+    }, {
+      name: '5',
+      value: 1,
+    }, {
+      name: '6',
+      value: 1,
+    }, {
+      name: '7',
+      value: 1,
+    }, {
+      name: '8',
+      value: 1,
+    }
+  ];
+
+  cover = [
+    {
+      name: '1',
+      value: 1,
+    }, {
+      name: '2',
+      value: 1,
+    }, {
+      name: '3',
+      value: 1,
+    }, {
+      name: '4',
+      value: 1,
+    }, {
+      name: '5',
+      value: 1,
+    }, {
+      name: '6',
+      value: 1,
+    }, {
+      name: '7',
+      value: 1,
+    }, {
+      name: '8',
+      value: 1,
+    }
+  ];
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
