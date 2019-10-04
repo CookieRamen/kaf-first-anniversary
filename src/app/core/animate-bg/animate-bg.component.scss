@@ -8,15 +8,17 @@
   overflow: hidden;
   pointer-events: none;
   z-index: -1;
+  user-select: none;
 
   .animate-text {
     position: fixed;
-    color: rgba(255, 255, 255, .1);
+    color: rgba(255, 255, 255, .075);
     font-size: 6rem;
     font-family: serif;
     font-weight: bold;
     width: 2000px;
     text-align: center;
+    user-select: none;
   }
 
 
