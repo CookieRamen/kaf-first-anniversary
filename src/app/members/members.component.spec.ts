@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MembersComponent } from './members.component';
+import {RouterTestingModule} from '@angular/router/testing';
+import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
 
 describe('MembersComponent', () => {
   let component: MembersComponent;
@@ -8,6 +10,10 @@ describe('MembersComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        RouterTestingModule,
+        AnimateBgModule
+      ],
       declarations: [ MembersComponent ]
     })
     .compileComponents();
