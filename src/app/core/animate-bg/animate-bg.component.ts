@@ -14,10 +14,13 @@ export class AnimateBgComponent implements OnInit {
   particleHeight = 100;
   bgText: string[] = [];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
-
+    if (this.bgTextData === undefined) {
+      return;
+    }
     /*
     * 背景歌詞用
     * 指定した回数分繰り返して this.bgTextData からランダムな行を拾い
