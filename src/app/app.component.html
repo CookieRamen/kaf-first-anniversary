@@ -1,6 +1,7 @@
 <ng-template [ngIf]="isWait">
   <div class="wait-screen"></div>
 </ng-template>
+
 <ng-template [ngIf]="isLoading && !isWait">
   <div class="load-screen animate">
     <ng-lottie
@@ -19,3 +20,12 @@
 </nav>
 
 <router-outlet></router-outlet>
+
+<footer class="text-white container">
+  <p>
+    このサイトは神椿レコード及び花譜には関係ありません。観測者が有志で作成したものです。
+    <br>
+    サイト上の画像、動画及び写真等の複製を禁止します。
+  </p>
+  <a href="https://forms.gle/6QsqaajY2QfVbAXV8">お問い合わせ</a>
+</footer>
