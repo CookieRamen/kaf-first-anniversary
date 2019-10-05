@@ -6,6 +6,7 @@ import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {ParticlesModule} from 'ng-particle';
 import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
 import {OrderModule} from 'ngx-order-pipe';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('QuestionnaireComponent', () => {
   let component: QuestionnaireComponent;
@@ -18,6 +19,7 @@ describe('QuestionnaireComponent', () => {
         NgxChartsModule,
         ParticlesModule,
         AnimateBgModule,
+        BrowserAnimationsModule,
         OrderModule,
       ],
       declarations: [ QuestionnaireComponent ]
