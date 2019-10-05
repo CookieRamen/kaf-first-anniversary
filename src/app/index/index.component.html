@@ -1,10 +1,9 @@
-<!-- 背景用Particles Canvas -->
-<div [ngStyle]="particleStyle" class="particles-container">
-  <canvas dParticles [params]="particleParams" [style.width.%]="particleWidth" [style.height.%]="particleHeight"></canvas>
-</div>
+<app-animate-bg [bgTextData]="bgTextData"></app-animate-bg>
 
-<!-- ランダムに流れる歌詞 -->
-<div class="animate-texts">
-  <!-- bgText の配列分繰り返し -->
-  <p *ngFor="let data of bgText; let i = index" class="animate-text text{{i+1}}">{{data}}</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center my-4">
+      <img src="https://s3.arkjp.net/KafFirstAnniversary/images/top/top1.jpg" width="100%">
+    </div>
+  </div>
 </div>

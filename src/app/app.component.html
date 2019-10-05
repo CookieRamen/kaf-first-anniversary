@@ -1,7 +1,31 @@
-<nav class="navbar-custom sticky-top py-2">
+<ng-template [ngIf]="isWait">
+  <div class="wait-screen"></div>
+</ng-template>
+
+<ng-template [ngIf]="isLoading && !isWait">
+  <div class="load-screen animate">
+    <ng-lottie
+      (animationCreated)="animationCreated($event)"
+      [options]="options"
+    ></ng-lottie>
+  </div>
+</ng-template>
+
+<nav class="navbar-custom sticky-top">
   <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <a routerLink="/" class="py-2">Logo</a>
+    <a class="navbar-brand py-2" routerLink="/">
+      <img alt="Kaf Unofficial Logo" src="/assets/images/logo.svg" width="72">
+    </a>
   </div>
 </nav>
 
 <router-outlet></router-outlet>
+
+<footer class="text-white container">
+  <p>
+    このサイトは神椿レコード及び花譜には関係ありません。観測者が有志で作成したものです。
+    <br>
+    サイト上の画像、動画及び写真等の複製を禁止します。
+  </p>
+  <a href="https://forms.gle/6QsqaajY2QfVbAXV8">お問い合わせ</a>
+</footer>

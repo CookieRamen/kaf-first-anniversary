@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 
 import {IndexRoutingModule} from './index-routing.module';
 import {IndexComponent} from './index.component';
-import {ParticlesModule} from 'ng-particle';
+import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
 
 
 @NgModule({
@@ -11,7 +11,7 @@ import {ParticlesModule} from 'ng-particle';
   imports: [
     CommonModule,
     IndexRoutingModule,
-    ParticlesModule,
+    AnimateBgModule
   ],
 })
 export class IndexModule {

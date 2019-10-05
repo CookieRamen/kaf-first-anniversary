@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 330">
+  <defs>
+    <style>.a{fill:url(#a);}</style>
+    <linearGradient id="a" x1="540" x2="540" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39489c"/>
+      <stop offset="0.31" stop-color="#2c3785"/>
+      <stop offset="0.74" stop-color="#1d236b"/>
+      <stop offset="1" stop-color="#171c61"/>
+    </linearGradient>
+  </defs>
+  <title>head_bottom</title>
+  <path class="a"
+        d="M540,330C241.77,330,0,298.23,0,0L76,51,164,0l98,51L366,0,540,51,714,0,818,51,916,0l88,51,76-51c0,298.23-241.77,330-540,330"/>
+</svg>
