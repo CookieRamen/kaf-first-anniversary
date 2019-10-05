@@ -8,14 +8,13 @@
     みなさん、ありがとうございました。</p>
   <p>※「命に嫌われている（Prayer Ver.）」は「歌ってみた」と表記されていないので除外しています。</p>
 
-  <div class="row my-4" *ngIf="show">
+  <div class="row my-4">
     <div class="col-12">
       <h2>花譜のオリジナル曲で一番好きな歌は？</h2>
       <div class="pie-chart-parent">
-        <ngx-charts-pie-chart
-          [results]="original"
-          [labels]="true"
-        ></ngx-charts-pie-chart>
+        <ng-template [ngIf]="show">
+          <ngx-charts-pie-chart [results]="original" [labels]="true"></ngx-charts-pie-chart>
+        </ng-template>
       </div>
     </div>
 
