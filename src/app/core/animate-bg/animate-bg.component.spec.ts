@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { AnimateBgComponent } from './animate-bg.component';
+import {AnimateBgComponent} from './animate-bg.component';
 import {ParticlesModule} from 'ng-particle';
 import {BrowserTestingModule} from '@angular/platform-browser/testing';
 
@@ -14,9 +14,9 @@ describe('AnimateBgComponent', () => {
         BrowserTestingModule,
         ParticlesModule,
       ],
-      declarations: [ AnimateBgComponent ]
+      declarations: [AnimateBgComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

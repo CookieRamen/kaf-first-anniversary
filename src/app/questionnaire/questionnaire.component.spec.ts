@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { QuestionnaireComponent } from './questionnaire.component';
+import {QuestionnaireComponent} from './questionnaire.component';
 import {RouterTestingModule} from '@angular/router/testing';
 import {NgxChartsModule} from '@swimlane/ngx-charts';
 import {ParticlesModule} from 'ng-particle';
@@ -22,9 +22,9 @@ describe('QuestionnaireComponent', () => {
         BrowserAnimationsModule,
         OrderModule,
       ],
-      declarations: [ QuestionnaireComponent ]
+      declarations: [QuestionnaireComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

@@ -5,16 +5,16 @@
 <ng-template [ngIf]="isLoading && !isWait">
   <div class="load-screen animate">
     <ng-lottie
-      [options]="options"
       (animationCreated)="animationCreated($event)"
+      [options]="options"
     ></ng-lottie>
   </div>
 </ng-template>
 
 <nav class="navbar-custom sticky-top">
   <div class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="navbar-brand" routerLink="/" class="py-2">
-      <img src="/assets/images/logo.svg" width="72">
+    <a class="navbar-brand py-2" routerLink="/">
+      <img alt="Kaf Unofficial Logo" src="/assets/images/logo.svg" width="72">
     </a>
   </div>
 </nav>

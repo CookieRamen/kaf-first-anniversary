@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { CommentsRoutingModule } from './comments-routing.module';
-import { CommentsComponent } from './comments.component';
+import {CommentsRoutingModule} from './comments-routing.module';
+import {CommentsComponent} from './comments.component';
 
 
 @NgModule({
@@ -12,4 +12,5 @@ import { CommentsComponent } from './comments.component';
     CommentsRoutingModule
   ]
 })
-export class CommentsModule { }
+export class CommentsModule {
+}

@@ -1,12 +1,12 @@
 import {Component, OnInit} from '@angular/core';
-import { AnimationItem, LottieOptions } from 'ngx-lottie';
+import {AnimationItem, LottieOptions} from 'ngx-lottie';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   isWait = true;
   isLoading = true;
 

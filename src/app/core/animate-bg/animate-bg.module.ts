@@ -1,8 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 import {ParticlesModule} from 'ng-particle';
 import {AnimateBgComponent} from './animate-bg.component';
-
 
 
 @NgModule({
@@ -13,4 +12,5 @@ import {AnimateBgComponent} from './animate-bg.component';
   ],
   exports: [AnimateBgComponent]
 })
-export class AnimateBgModule { }
+export class AnimateBgModule {
+}

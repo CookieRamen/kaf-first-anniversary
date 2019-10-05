@@ -1,6 +1,7 @@
 <!-- 背景用Particles Canvas -->
 <div [ngStyle]="particleStyle" class="particles-container">
-  <canvas dParticles [params]="particleParams" [style.width.%]="particleWidth" [style.height.%]="particleHeight"></canvas>
+  <canvas [params]="particleParams" [style.height.%]="particleHeight" [style.width.%]="particleWidth"
+          dParticles></canvas>
 </div>
 
 <!-- ランダムに流れる歌詞 -->

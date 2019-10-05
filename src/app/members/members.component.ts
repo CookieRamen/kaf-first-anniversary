@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-members',
@@ -66,7 +66,8 @@ export class MembersComponent implements OnInit {
     'もう何も怖くはないさ'
   ];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

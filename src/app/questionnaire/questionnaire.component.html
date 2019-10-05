@@ -13,7 +13,7 @@
       <h2>花譜のオリジナル曲で一番好きな歌は？</h2>
       <div class="pie-chart-parent">
         <ng-template [ngIf]="show">
-          <ngx-charts-pie-chart [results]="original" [labels]="true"></ngx-charts-pie-chart>
+          <ngx-charts-pie-chart [labels]="true" [results]="original"></ngx-charts-pie-chart>
         </ng-template>
       </div>
     </div>
@@ -82,8 +82,8 @@
       <h2>花譜の歌ってみたで一番好きな歌は？</h2>
       <div class="pie-chart-parent">
         <ngx-charts-pie-chart
-          [results]="cover"
           [labels]="true"
+          [results]="cover"
         ></ngx-charts-pie-chart>
       </div>
     </div>

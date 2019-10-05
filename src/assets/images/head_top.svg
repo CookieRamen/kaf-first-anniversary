@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 591"><defs><style>.a{fill:none;}.b{fill:url(#a);}.c{clip-path:url(#b);}.d{fill:#e61673;}.e{fill:#172a88;}.f{fill:#fff;}</style><linearGradient id="a" x1="540" x2="540" y2="591" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#39489c"/><stop offset="0.31" stop-color="#2c3785"/><stop offset="0.74" stop-color="#1d236b"/><stop offset="1" stop-color="#171c61"/></linearGradient><clipPath id="b"><path class="a" d="M0,540.5C0,242.27,241.77.5,540,.5s540,241.77,540,540Z"/></clipPath></defs><title>head_top</title><path class="b" d="M540,0c298.23,0,540,241.77,540,540l-76,51-88-51-98,51L714,540,540,591,366,540,262,591l-98-51L76,591,0,540C0,241.77,241.77,0,540,0"/><g class="c"><ellipse class="d" cx="129.49" cy="297" rx="152" ry="73.72" transform="translate(-192.12 257.75) rotate(-59.48)"/><ellipse class="e" cx="129.49" cy="297" rx="125.5" ry="60.87" transform="translate(-192.12 257.75) rotate(-59.48)"/><ellipse class="d" cx="129.49" cy="297" rx="76.81" ry="37.25" transform="matrix(0.51, -0.86, 0.86, 0.51, -192.12, 257.75)"/><ellipse class="e" cx="129.49" cy="297" rx="46.41" ry="22.51" transform="translate(-192.12 257.75) rotate(-59.48)"/><ellipse class="f" cx="129.49" cy="297" rx="22.81" ry="11.06" transform="translate(-192.12 257.75) rotate(-59.48)"/><ellipse class="d" cx="947.45" cy="297" rx="73.72" ry="152" transform="translate(-17.46 531.14) rotate(-31.04)"/><ellipse class="e" cx="947.45" cy="297" rx="60.87" ry="125.5" transform="translate(-17.46 531.14) rotate(-31.04)"/><ellipse class="d" cx="947.45" cy="297" rx="37.25" ry="76.81" transform="translate(-17.46 531.14) rotate(-31.04)"/><ellipse class="e" cx="947.45" cy="297" rx="22.51" ry="46.41" transform="translate(-17.46 531.14) rotate(-31.04)"/><ellipse class="f" cx="947.45" cy="297" rx="11.06" ry="22.81" transform="translate(-17.46 531.14) rotate(-31.04)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 591">
+  <defs>
+    <style>.a{fill:none;}.b{fill:url(#a);}.c{clip-path:url(#b);}.d{fill:#e61673;}.e{fill:#172a88;}.f{fill:#fff;}</style>
+    <linearGradient id="a" x1="540" x2="540" y2="591" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39489c"/>
+      <stop offset="0.31" stop-color="#2c3785"/>
+      <stop offset="0.74" stop-color="#1d236b"/>
+      <stop offset="1" stop-color="#171c61"/>
+    </linearGradient>
+    <clipPath id="b">
+      <path class="a" d="M0,540.5C0,242.27,241.77.5,540,.5s540,241.77,540,540Z"/>
+    </clipPath>
+  </defs>
+  <title>head_top</title>
+  <path class="b"
+        d="M540,0c298.23,0,540,241.77,540,540l-76,51-88-51-98,51L714,540,540,591,366,540,262,591l-98-51L76,591,0,540C0,241.77,241.77,0,540,0"/>
+  <g class="c">
+    <ellipse class="d" cx="129.49" cy="297" rx="152" ry="73.72" transform="translate(-192.12 257.75) rotate(-59.48)"/>
+    <ellipse class="e" cx="129.49" cy="297" rx="125.5" ry="60.87" transform="translate(-192.12 257.75) rotate(-59.48)"/>
+    <ellipse class="d" cx="129.49" cy="297" rx="76.81" ry="37.25"
+             transform="matrix(0.51, -0.86, 0.86, 0.51, -192.12, 257.75)"/>
+    <ellipse class="e" cx="129.49" cy="297" rx="46.41" ry="22.51" transform="translate(-192.12 257.75) rotate(-59.48)"/>
+    <ellipse class="f" cx="129.49" cy="297" rx="22.81" ry="11.06" transform="translate(-192.12 257.75) rotate(-59.48)"/>
+    <ellipse class="d" cx="947.45" cy="297" rx="73.72" ry="152" transform="translate(-17.46 531.14) rotate(-31.04)"/>
+    <ellipse class="e" cx="947.45" cy="297" rx="60.87" ry="125.5" transform="translate(-17.46 531.14) rotate(-31.04)"/>
+    <ellipse class="d" cx="947.45" cy="297" rx="37.25" ry="76.81" transform="translate(-17.46 531.14) rotate(-31.04)"/>
+    <ellipse class="e" cx="947.45" cy="297" rx="22.51" ry="46.41" transform="translate(-17.46 531.14) rotate(-31.04)"/>
+    <ellipse class="f" cx="947.45" cy="297" rx="11.06" ry="22.81" transform="translate(-17.46 531.14) rotate(-31.04)"/>
+  </g>
+</svg>

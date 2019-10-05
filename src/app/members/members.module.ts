@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { MembersRoutingModule } from './members-routing.module';
-import { MembersComponent } from './members.component';
+import {MembersRoutingModule} from './members-routing.module';
+import {MembersComponent} from './members.component';
 import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
 
 
@@ -14,4 +14,5 @@ import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
     AnimateBgModule,
   ]
 })
-export class MembersModule { }
+export class MembersModule {
+}

@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { IllustsRoutingModule } from './illusts-routing.module';
-import { IllustsComponent } from './illusts.component';
+import {IllustsRoutingModule} from './illusts-routing.module';
+import {IllustsComponent} from './illusts.component';
 
 
 @NgModule({
@@ -12,4 +12,5 @@ import { IllustsComponent } from './illusts.component';
     IllustsRoutingModule
   ]
 })
-export class IllustsModule { }
+export class IllustsModule {
+}

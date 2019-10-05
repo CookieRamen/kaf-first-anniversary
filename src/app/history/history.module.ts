@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { HistoryRoutingModule } from './history-routing.module';
-import { HistoryComponent } from './history.component';
+import {HistoryRoutingModule} from './history-routing.module';
+import {HistoryComponent} from './history.component';
 
 
 @NgModule({
@@ -12,4 +12,5 @@ import { HistoryComponent } from './history.component';
     HistoryRoutingModule
   ]
 })
-export class HistoryModule { }
+export class HistoryModule {
+}
