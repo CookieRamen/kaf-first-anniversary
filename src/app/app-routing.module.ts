@@ -12,6 +12,9 @@ const routes: Routes = [
   }, {
     path: 'credit',
     loadChildren: () => import('./members/members.module').then(m => m.MembersModule)
+  }, {
+    path: 'history',
+    loadChildren: () => import('./history/history.module').then(m => m.HistoryModule)
   }
 ];
 

@@ -1,1 +1,2233 @@
-<p>history works!</p>
+<app-animate-bg [bgTextData]="bgTextData"></app-animate-bg>
+
+<div class="container mt-4">
+  <button class="select-btn" (click)="group = 'デビュー～COUNT0'" [class.active]="group === 'デビュー～COUNT0'">デビュー～COUNT0</button>
+  <button class="select-btn" (click)="group = '新年～休詩'" [class.active]="group === '新年～休詩'">新年～休詩</button>
+  <button class="select-btn" (click)="group = '活花～花と心臓'" [class.active]="group === '活花～花と心臓'">活花～花と心臓</button>
+  <button class="select-btn" (click)="group = '花と心臓～夜が降り止む前に'" [class.active]="group === '花と心臓～夜が降り止む前に'">花と心臓～夜が降り止む前に</button>
+  <button class="select-btn" (click)="group = 'そして花になる～命に嫌われている'" [class.active]="group === 'そして花になる～命に嫌われている'">そして花になる～命に嫌われている</button>
+  <button class="select-btn" (click)="group = '観測～1周年'" [class.active]="group === '観測～1周年'">観測～1周年</button>
+  <div class="row my-3">
+    <div class="timeline-centered">
+
+      <ng-template [ngIf]="group === 'デビュー～COUNT0'">
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>10月16日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-feather"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2 class="m-0">チャンネル設立</h2>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>10月18日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#01投稿 デビュー</h2>
+              <p>ここから花譜としての歩みがスタートしました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/LZWPYAqDtGs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <p>この日に川サキさんからもメッセージがありました</p>
+              <ngx-tweet tweetId="1052899093972889601"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>10月22日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#02</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/eqovRWVLCic" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>10月26日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#03</h2>
+              <p>視聴者に向けて少しだけ歌声が公開されました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/DUEvvom-r4A" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>10月31日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>猛独が襲う</h2>
+              <p>初めての歌ってみた動画</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/jpwy7kP8Pps" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>11月2日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>PALOW.さんからもコメントがありました</h2>
+              <ngx-tweet tweetId="1058299352974745600"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>11月5日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>さよならミッドナイト</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/y4sHBySTCzk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>11月12日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>またねがあれば</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/6pEDTxHm-Ek" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>11月14日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#04｢独白｣</h2>
+              <p>自己紹介的なことをしてくれました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/BTNFCI4Ue0U" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>11月19日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>死んでしまったのだろうか</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/3j0znl2cYAs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>11月26日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>回る空うさぎ</h2>
+              <p>可愛いダンス</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/i30TA3V527A" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月3日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#05｢糸｣-予告編-</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/FhlwWC4vwy4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <p>カンザキイオリさんが作曲していることが判明しました</p>
+              <ngx-tweet tweetId="1069512260794478592"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月6日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#06｢糸｣</h2>
+              <p>初のオリジナル曲</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/3Wtx6k2vInU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <ngx-tweet tweetId="1070648478362030080"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月11日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>count0への参加が発表されました</h2>
+              <ngx-tweet tweetId="1072404097200984065"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月17日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>lemon</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/SNapiB5_dx0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月19日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>魔女のCDが発売決定</h2>
+              <p>諸事情で引用の中身を見ることができません</p>
+              <ngx-tweet tweetId="1075323279668199429"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月21日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>打上花火</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/R0BHfKV9ioI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月23日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>ついにチャンネル登録者が1万人を突破</h2>
+              <ngx-tweet tweetId="1076686271529926657"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月24日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#07｢心臓と絡繰｣-予告編①-</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/J8rBt5AuFcs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月26日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#08｢心臓と絡繰｣-予告編②-</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/NF5ySTQuE4A" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月28日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#09｢心臓と絡繰｣</h2>
+              <p>2曲目のオリジナルとなります</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/hcm1LGOxJbc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2018年</span> <span>12月31日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>COUNT0</h2>
+              <p>花譜にとって初のライブイベント</p>
+              <p>｢糸｣｢心臓と絡繰｣｢魔女｣を披露</p>
+              <p>同時にチャンネル登録者2万人とtwitterフォロワー1万人を達成しました</p>
+            </div>
+          </div>
+
+        </article>
+      </ng-template>
+
+      <ng-template [ngIf]="group === '新年～休詩'">
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月1日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#10｢新年｣</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/GHBpsI3FbjY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月4日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>想像フォレスト</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/sHlNoBD_rj4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月4日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>Mogura VRのインタビュー</h2>
+              <ngx-tweet tweetId="1081139828547186688"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月9日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#11｢魔女｣</h2>
+              <p>3曲目のオリジナル、COUNT0で披露していました。</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/AqwFHfsAlx0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月11日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#12｢拾伍｣</h2>
+              <p>先月15歳になったそうです</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/B9m_x2wXtus" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月14日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>五月雨</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/R1Gph3qEijw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <p>崎山蒼志さんからのメッセージも</p>
+              <ngx-tweet tweetId="1085125128550199297"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月18日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>凍えそうだ</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/KM8Jh3D3hgA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月25日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>フラジール</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/5NMSH6piKZU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月29日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#13｢忘れてしまえ｣-予告編-</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/RWJkwQrnKW0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月30日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#14｢休詩｣</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/rtV931hGC1k" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>1月31日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#15｢忘れてしまえ｣</h2>
+              <p>4曲目のオリジナルで休詩前最後の更新でした。</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/2Nj1l-S2FJU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </ng-template>
+
+      <ng-template [ngIf]="group === '活花～花と心臓'">
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>3月20日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#16｢活花｣-復帰＆"雛鳥"予告編-</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/VcACkGvGKjM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>3月22日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#17｢雛鳥｣</h2>
+              <p>5曲目のオリジナル、花譜の一番最初の音楽</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/M1RIUrgJqWw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <ngx-tweet tweetId="1108292434968997888"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>3月25日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>ニコニコ超会議での｢バーチャルさんがいっぱい｣に出演することが発表されました</h2>
+              <ngx-tweet tweetId="1110121341443727360"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>3月29日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>シンクロサイクロトロン・スピリチュアライザー。</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/miNyynR8cNY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>4月7日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2 class="m-0">チャンネル登録者5万人突破</h2>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>4月8日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>アストロノーツ</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/SbqrpHDEeUA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>4月15日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#18｢花學｣</h2>
+              <p>ここで制服をお披露目しました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/OrDr2cV4G8o" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>4月25日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>少女レイ</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/UqmEmohjbOE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>4月28日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>バーチャルさんがいっぱい</h2>
+              <p>ライブイベント</p>
+              <p>｢魔女｣｢雛鳥｣を披露し、会場を圧巻とさせ、twitterのトレンド入りをしました</p>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>4月30日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>映画｢ホットギミックガールミーツボーイ｣の主題歌への起用が発表</h2>
+              <ngx-tweet tweetId="1122999165233971200"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>5月14日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#19｢花と心臓｣クロスフェード</h2>
+              <p>花譜初めてのEP</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/WVATF0ko-IU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>5月15日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>｢花と心臓｣発売</h2>
+              <p>｢糸｣｢魔女｣｢心臓と絡繰｣が収録おり、これらは全てアレンジが施されている</p>
+              <div class="my-3 embed-responsive embed-responsive-1by1">
+                <iframe src="https://linkco.re/hf6NAvP2" frameborder="0"></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </ng-template>
+
+      <ng-template [ngIf]="group === '花と心臓～夜が降り止む前に'">
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>5月22日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>白ゆき</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/w0a-sGEsmBc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>5月27日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>アイスが好きだそうです</h2>
+              <ngx-tweet tweetId="1132948321566203904"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月4日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#21｢過去を喰らう｣-予告編-</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/jPGbCBKf1Hg" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月5日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#22｢過去を喰らう｣</h2>
+              <p>6曲目のオリジナル、雛鳥(半袖)のお披露目になりました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/tMKrECxEpq8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月12日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>bin</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/1kzZtRpoBGY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <p>歌詞を間違えてしまっています</p>
+              <ngx-tweet tweetId="1138785159568715777"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月13日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#24｢少女少年｣-歓喜編-</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/yNFXy7o5fo0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <p>ここでCD発売が発表されました</p>
+              <ngx-tweet tweetId="1139079393752494080"></ngx-tweet>
+              <p>同日に山戸結希監督が作ったショートver.のMVが公開されました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/K54N721DSQQ" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月27日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#24.5｢少女少年｣-開幕編-</h2>
+              <p>よりが...</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/KCqpKl5P2wY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月28日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#25｢夜が降り止む前に｣</h2>
+              <p>7曲目のオリジナル</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/dledRqPTNT8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月9日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>チャンネル登録者10万人突破</h2>
+              <ngx-tweet tweetId="1148593703935782913"></ngx-tweet>
+              <ngx-tweet tweetId="1148595291307872257"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月10日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>ハミングが聞こえる</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/XeUbgKxopEw" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月17日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>フロントメモリー</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/iD5ZCHjI5CU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月26日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>ダンスが僕の恋人</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/UQpviOSrBa0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </ng-template>
+
+      <ng-template [ngIf]="group === '不可解'">
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>5月17日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>花譜　#20　「不可解」 -御願編-</h2>
+              <p>1stライブが告知されました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/u1TY1eBHPGM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <ngx-tweet tweetId="1129311062858199041"></ngx-tweet>
+              <hr>
+              <p>観測者の熱量は凄まじいものでした。</p>
+              <p>83秒で目標の500万到達。</p>
+              <p>当日中に1000万円達成しました。</p>
+              <ngx-tweet tweetId="1133663118184206336"></ngx-tweet>
+              <p>その後も順調に伸び続け…</p>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月8日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>さらに伸びていきます</h2>
+              <ngx-tweet tweetId="1137237629731139584"></ngx-tweet>
+              <ngx-tweet tweetId="1137297988722651136"></ngx-tweet>
+              <ngx-tweet tweetId="1137374415438540800"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月9日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>クラウドファンディング最終日</h2>
+              <p>ライブ会場が恵比寿LIQUID ROOMであることが発表されました。</p>
+              <ngx-tweet tweetId="1137556243994726401"></ngx-tweet>
+              <ngx-tweet tweetId="1137570014511259648"></ngx-tweet>
+              <ngx-tweet tweetId="1137634071306153984"></ngx-tweet>
+              <ngx-tweet tweetId="1137706167625347072"></ngx-tweet>
+              <p>クラウドファンディングは総額4000万over、パトロン4041人、達成率800％となりました。</p>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月10日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>クラウドファンディングについてコメント</h2>
+              <ngx-tweet tweetId="1137917525348372481"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月22日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>一般チケットはわずか一分弱で完売</h2>
+              <ngx-tweet tweetId="1142242733811097600"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>6月24日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解のライブビューイングが決定</h2>
+              <ngx-tweet tweetId="1143083303798370304"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月1日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解グッズの発表</h2>
+              <ngx-tweet tweetId="1145649067214528513"></ngx-tweet>
+              <p>謎の魚がらぷらすと明かされた瞬間でした</p>
+              <p>全国規模でのライブビューイングは史上初</p>
+              <ngx-tweet tweetId="1149152219368792064"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月22日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解グッズは全額京アニへ寄付</h2>
+              <ngx-tweet tweetId="1153228566856790016"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月26日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解に際してオリジナル曲一挙放送</h2>
+              <p>花譜「花譜奏習篇 」</p>
+              <ngx-tweet tweetId="1154714542686871552"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>7月31日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>花譜　#26 「不可解開幕前御挨拶篇」</h2>
+              <p>不可解が翌日に迫っていました</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/gtQZB-n_wuM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月1日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>花譜1st ONE MAN LIVE「不可解」</h2>
+              <ngx-tweet tweetId="1156762165686067201"></ngx-tweet>
+              <ngx-tweet tweetId="1156844347687444480"></ngx-tweet>
+              <ngx-tweet tweetId="1156899870139019264"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月2日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>花譜　#28 「不可解感謝篇」</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/HVE7yQEoyBQ" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <ngx-tweet tweetId="1157206946291703808"></ngx-tweet>
+              <ngx-tweet tweetId="1157216201094811648"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月4日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>特殊歌唱用形態星鴉発表</h2>
+              <ngx-tweet tweetId="1157963733185908736"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月5日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解グッズの再販が決定</h2>
+              <ngx-tweet tweetId="1158216808815423493"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月8日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>京アニへ願いが届きますように</h2>
+              <ngx-tweet tweetId="1159389100337594369"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月19日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解で発表された観測</h2>
+              <ngx-tweet tweetId="1163285371481837568"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月9日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解、一夜限りの再放送が決定</h2>
+              <ngx-tweet tweetId="1171015483929182213"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月14日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>不可解再放送</h2>
+              <ngx-tweet tweetId="1172722762634293248"></ngx-tweet>
+              <ngx-tweet tweetId="1172862830560698368"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+      </ng-template>
+
+
+      <ng-template [ngIf]="group === 'そして花になる～命に嫌われている'">
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月1日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#27｢そして花になる｣</h2>
+              <p>今の花譜の全てが込められた曲</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/y6TGSY9Zll0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月3日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2 class="m-0">JOYSOUND｢糸｣｢心臓と絡繰｣追加</h2>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月5日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>DIVEへの参加が発表</h2>
+              <ngx-tweet tweetId="1158305282260258816"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月6日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>予告のクイズ</h2>
+              <ngx-tweet tweetId="1158649036817104897"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月6日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#29｢quiz｣</h2>
+              <p>クラウドファンディングで先行公開されていた楽曲</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/n0ov2G-_UvU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月6日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>Vサマへの参加発表</h2>
+              <ngx-tweet tweetId="1158396703411593217"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月10日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>神様</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/FwZvMAYdqzE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月14日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#30｢夜行バスにて｣</h2>
+              <p>最高にロックな曲</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/RDnArlYduBs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+              <p>なんとMVはwabokuさんが担当</p>
+              <ngx-tweet tweetId="1161600129696063488"></ngx-tweet>
+              <ngx-tweet tweetId="1161596325088989184"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月16日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>死神</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/LRO_uhj_99E" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月17日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2 class="m-0">JOYSOUND｢魔女｣｢忘れてしまえ｣追加</h2>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月19日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>うつくしいひと</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/OXOWoRWTk6Q" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月19日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2 class="m-0">チャンネル登録者15万人突破</h2>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月21日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#31｢ハミングが聞こえる｣【不可解エンドロールver.】</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/abD0dHg6MZY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月22日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#32｢観測の観測｣【Album Trailer】</h2>
+              <p>9月11日発売のアルバムのトレイラー</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/o-rfzUs7Rc8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月23日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>忘れたいことばっかだ</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/qxYK4e_KlF0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月25日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>Vサマ</h2>
+              <p>ライブイベント</p>
+              <p>｢夜行バスにて｣と｢未確認少女進行形｣を披露し、ミライアカリとMCをしました</p>
+              <p>アイス以外にラーメンとたこ焼きが好きだそうです</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/3j0znl2cYAs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月26日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>告白</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/9orupK2mjMY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月28日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>プラスティック・ラブ</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/WikNe1NlgqI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>8月30日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>捧げたい</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/0h0eBUV6rJA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月2日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>愛にできることはまだあるかい</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/J4Dqh-85GPg" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月3日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>銀の盾</h2>
+              <ngx-tweet tweetId="1168826073074634752"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月7日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#33｢命に嫌われている(Prayer Ver.)｣</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/N5hInoyU-WY" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+      </ng-template>
+
+      <ng-template [ngIf]="group === '観測～1周年'">
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月10日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#34｢観測-前夜篇-｣</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/IP80wfBPqBs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月11日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#35｢観測-御披露目篇-｣</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/4il0GPyK6zg" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月11日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#35｢観測｣</h2>
+              <a href="https://booth.pm/topics/kamitsubaki_record" target="_blank">
+                <img src="https://asset.booth.pm/static-images/banner/200x40_01.png">
+              </a>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月11日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2 class="m-0">｢観測」同時視挑會</h2>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月12日<br><i style="margin-right: 24px">|</i><br>9月15日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>東京ゲームショウ.47HEROINES</h2>
+              <p>｢Re:HEROINES｣先行公開</p>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月14日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>｢ねとらぼ｣インタビュー</h2>
+              <a href="https://nlab.itmedia.co.jp/nl/articles/1909/14/news010.html" target="_blank">記事へ</a>
+              <ngx-tweet tweetId="1172863303426560000"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月17日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#37「Re:HEROINES」【オリジナルMV -47 HEROINES Ver.-】</h2>
+              <p>2018年リリースのゲーム「47HEROINES」のオープニング<br>「HEROINES」のリメイクフルバージョン</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/tiXLsDQ0uzM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月18日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2 class="m-0">JOYSOUND｢夜行バスにて｣追加</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/3j0znl2cYAs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月20日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>透明少女</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/01RT3eeeEWk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月22日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>DIVE</h2>
+              <p>｢不可解｣と｢エリカ｣の2曲を披露</p>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月24日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>#38｢エリカ｣</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/VPDXSn68uK0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月27日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>生きていたんだよな</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/kLLP033jBs8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月29日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>FAVRIC</h2>
+              <p>バーチャルYouTuber初のファッションライブイベント</p>
+              <p>｢きみがいいねくれたら(cover)｣ ｢Plastic Love(cover)｣</p>
+              <p>｢魔女(大沼パセリremix)｣の３曲を披露</p>
+              <p>成長を続ける衣装｢瑠璃鶲｣がお披露目</p>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>9月30日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>ROCKIN'ON JAPAN 11月号に掲載</h2>
+              <ngx-tweet tweetId="1178505012894261249"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>10月3日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>短編アニメーション『 ROAD TO YOU -記憶に舞う粉雪- 』</h2>
+              <p>ダンロップタイヤ 公式のショートアニメーションの楽曲として｢粉雪｣(レミオロメン)をカバー</p>
+              <p>アレンジはカンザキイオリ</p>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/_DidUzA7l_0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>10月4日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>きみがいいねくれたら</h2>
+              <div class="my-3 embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/1R6ZuIhc7Ig" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+        </article>
+        <article class="timeline-entry">
+
+          <div class="timeline-entry-inner">
+            <time class="timeline-time"><span>2019年</span> <span>10月6日</span></time>
+
+            <div class="timeline-icon bg-info">
+              <i class="entypo-location"></i>
+            </div>
+
+            <div class="timeline-label">
+              <h2>チャンネル登録者数が20万人を突破</h2>
+              <ngx-tweet tweetId="1180683067553304578"></ngx-tweet>
+            </div>
+          </div>
+
+        </article>
+      </ng-template>
+
+      <article class="timeline-entry begin">
+
+        <div class="timeline-entry-inner">
+
+          <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+            <i class="entypo-flight"></i>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+  </div>
+</div>
