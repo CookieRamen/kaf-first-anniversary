@@ -31,6 +31,12 @@ img {
 .timeline-centered {
   position: relative;
   margin-bottom: 30px;
+  max-width: calc(100% - 140px);
+  zoom: 1;
+  @media screen and (max-width: 767px) {
+    zoom: 0.5;
+    max-width: calc(100% - 160px);
+  }
 
   &:before {
     content: " ";
@@ -163,17 +169,26 @@ img {
         padding: 10px;
         box-sizing: border-box;
         color: #fff;
+        @media screen and (max-width: 767px) {
+          left: -110px;
+        }
 
         > span {
           display: block;
 
           &:first-child {
             font-size: 12px;
+            @media screen and (max-width: 767px) {
+              font-size: 8px;
+            }
           }
 
           &:last-child {
             font-size: 15px;
             font-weight: bold;
+            @media screen and (max-width: 767px) {
+              font-size: 10px;
+            }
           }
         }
       }
@@ -291,6 +306,10 @@ img {
   font-weight: bold;
   color: #fff;
   transition: all .5s;
+  @media screen and (max-width: 767px) {
+    padding: 3px 10px;
+    font-size: 0.8em;
+  }
 
   &.active {
     background: #eceff1;
