@@ -1,6 +1,6 @@
 {
   "name": "kaf-first-anniversary",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -26,6 +26,7 @@
     "ng-particle": "^1.0.10",
     "ngx-lottie": "^3.1.0",
     "ngx-order-pipe": "^2.0.4",
+    "ngx-tweet": "^2.0.3",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
