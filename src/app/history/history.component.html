@@ -5,6 +5,7 @@
   <button class="select-btn" (click)="group = '新年～休詩'" [class.active]="group === '新年～休詩'">新年～休詩</button>
   <button class="select-btn" (click)="group = '活花～花と心臓'" [class.active]="group === '活花～花と心臓'">活花～花と心臓</button>
   <button class="select-btn" (click)="group = '花と心臓～夜が降り止む前に'" [class.active]="group === '花と心臓～夜が降り止む前に'">花と心臓～夜が降り止む前に</button>
+  <button class="select-btn" (click)="group = '不可解'" [class.active]="group === '不可解'">不可解</button>
   <button class="select-btn" (click)="group = 'そして花になる～命に嫌われている'" [class.active]="group === 'そして花になる～命に嫌われている'">そして花になる～命に嫌われている</button>
   <button class="select-btn" (click)="group = '観測～1周年'" [class.active]="group === '観測～1周年'">観測～1周年</button>
   <div class="row my-3">
@@ -1473,7 +1474,6 @@
 
         </article>
       </ng-template>
-
 
       <ng-template [ngIf]="group === 'そして花になる～命に嫌われている'">
         <article class="timeline-entry">
