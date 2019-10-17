@@ -3,13 +3,15 @@ import {CommonModule} from '@angular/common';
 
 import {PhotosRoutingModule} from './photos-routing.module';
 import {PhotosComponent} from './photos.component';
+import {AnimateBgModule} from '../core/animate-bg/animate-bg.module';
 
 
 @NgModule({
   declarations: [PhotosComponent],
   imports: [
     CommonModule,
-    PhotosRoutingModule
+    PhotosRoutingModule,
+    AnimateBgModule
   ]
 })
 export class PhotosModule {
