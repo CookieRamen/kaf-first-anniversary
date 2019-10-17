@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 
 interface PopupData {
-  img: string,
-  user: string
+  img: string;
+  user: string;
 }
 
 @Component({
@@ -72,11 +72,23 @@ export class IllustsComponent implements OnInit {
       img: '232064619437359114.png',
       user: 'A,M雪の下'
     }, {
+      img: '570015423731597334.png',
+      user: '春美'
+    }, {
+      img: '572751269924569089.jpeg',
+      user: '星屑'
+    }, {
       img: '622599081952280597.jpg',
       user: 'クロラ'
     }, {
       img: '404943139749756930.jpg',
       user: 'ラセンタ'
+    }, {
+      img: '555312077770588172_1.png',
+      user: '🐧'
+    }, {
+      img: '555312077770588172_2.png',
+      user: '🐧'
     }, {
       img: '610123135219400724_1.jpg',
       user: '羽兎牙'
@@ -89,18 +101,6 @@ export class IllustsComponent implements OnInit {
     }, {
       img: '610123135219400724_4.jpg',
       user: '羽兎牙'
-    }, {
-      img: '572751269924569089.jpeg',
-      user: '星屑'
-    }, {
-      img: '555312077770588172_1.png',
-      user: '🐧'
-    }, {
-      img: '555312077770588172_2.png',
-      user: '🐧'
-    }, {
-      img: '570015423731597334.png',
-      user: '春美'
     }
   ];
 

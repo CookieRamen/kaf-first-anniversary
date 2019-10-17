@@ -19,8 +19,11 @@ const routes: Routes = [
     path: 'comments',
     loadChildren: () => import('./comments/comments.module').then(m => m.CommentsModule)
   }, {
-    path: 'illusts',
+    path: 'illustration',
     loadChildren: () => import('./illusts/illusts.module').then(m => m.IllustsModule)
+  }, {
+    path: 'photos',
+    loadChildren: () => import('./photos/photos.module').then(m => m.PhotosModule)
   }
 ];
 

@@ -2,6 +2,7 @@
   background-color: rgba(163, 0, 255, 0.63);
   color: #fff;
   overflow: hidden;
+  cursor: pointer;
 
   .card-body {
     width: 100%;
@@ -13,6 +14,7 @@
 
   .card-footer {
     border-top: none;
+    background-color: transparent;
   }
 }
 
