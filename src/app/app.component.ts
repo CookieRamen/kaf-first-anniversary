@@ -9,6 +9,7 @@ import {AnimationItem, LottieOptions} from 'ngx-lottie';
 export class AppComponent implements OnInit {
   isWait = true;
   isLoading = true;
+  isCollapsed = true;
 
   options: LottieOptions = {
     path: '/assets/animation.json'

@@ -4,6 +4,7 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {LottieModule} from 'ngx-lottie';
+import {NgbCollapseModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import {LottieModule} from 'ngx-lottie';
     BrowserModule,
     AppRoutingModule,
     LottieModule,
+    NgbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
