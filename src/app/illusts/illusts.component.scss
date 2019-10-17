@@ -1,0 +1,81 @@
+.card {
+  background-color: rgba(163, 0, 255, 0.63);
+  color: #fff;
+  overflow: hidden;
+
+  .card-body {
+    width: 100%;
+    height: 200px;
+    border-radius: 0 0 0.75rem 0.75rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-footer {
+    border-top: none;
+  }
+}
+
+@supports (backdrop-filter: blur(8px) brightness(1.5)) {
+  .card {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(8px) brightness(1.5);
+    color: #fff;
+  }
+}
+
+
+.select-btn {
+  margin: 2px;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  background: transparent;
+  border-radius: 24px;
+  font-weight: bold;
+  color: #fff;
+  transition: all .5s;
+  @media screen and (max-width: 767px) {
+    padding: 3px 10px;
+    font-size: 0.8em;
+  }
+
+  &.active {
+    background: #eceff1;
+    color: #000;
+  }
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 10000;
+  text-align: center;
+
+  img {
+    max-width: 95%;
+    max-height: 100%;
+  }
+
+  h2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: rgba(255, 255, 255, .75);
+    text-shadow: 0 0 5px rgba(0, 0, 0, .75);
+    text-align: center;
+  }
+}
+
+@supports (backdrop-filter: blur(8px) brightness(1.5)) {
+  .popup {
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(8px) brightness(0.5);
+    color: #fff;
+  }
+}
