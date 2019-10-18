@@ -24,6 +24,9 @@ const routes: Routes = [
   }, {
     path: 'photos',
     loadChildren: () => import('./photos/photos.module').then(m => m.PhotosModule)
+  }, {
+    path: 'covers',
+    loadChildren: () => import('./covers/covers.module').then(m => m.CoversModule)
   }
 ];
 
