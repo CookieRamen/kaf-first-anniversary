@@ -1,1 +1,47 @@
-<p>illusts works!</p>
+<app-animate-bg [bgTextData]="bgTextData"></app-animate-bg>
+
+<ng-template [ngIf]="isPopup">
+  <div class="popup fadeIn animated" (click)="isPopup = false">
+    <ng-template [ngIf]="group === 'kaf'">
+      <img [src]="'https://s3.arkjp.net/KafFirstAnniversary/illustration/kaf/' + popupData.img">
+    </ng-template>
+
+    <ng-template [ngIf]="group === 'laplaces'">
+      <img [src]="'https://s3.arkjp.net/KafFirstAnniversary/illustration/laplaces/' + popupData.img">
+    </ng-template>
+    <h2>{{popupData.user}}</h2>
+  </div>
+</ng-template>
+
+<div class="container my-4">
+  <button class="select-btn" (click)="group = 'kaf'" [class.active]="group === 'kaf'">花譜</button>
+  <button class="select-btn" (click)="group = 'laplaces'" [class.active]="group === 'laplaces'">らぷらす</button>
+
+  <div class="row">
+    <ng-template [ngIf]="group === 'kaf'">
+      <ng-template ngFor let-data [ngForOf]="kafIllusts">
+        <div class="col-sm-4 py-2" (click)="popupData = data; isPopup = true">
+          <div class="card popuph-100">
+            <div class="card-body"
+                 [style.background-image]="'url(https://s3.arkjp.net/KafFirstAnniversary/illustration/kaf/' + data.img + ')'">
+            </div>
+            <div class="card-footer">{{data.user}}</div>
+          </div>
+        </div>
+      </ng-template>
+    </ng-template>
+
+    <ng-template [ngIf]="group === 'laplaces'">
+      <ng-template ngFor let-data [ngForOf]="LaplacesIllust">
+        <div class="col-sm-4 py-2" (click)="popupData = data; isPopup = true">
+          <div class="card h-100">
+            <div class="card-body"
+                 [style.background-image]="'url(https://s3.arkjp.net/KafFirstAnniversary/illustration/laplaces/' + data.img + ')'">
+            </div>
+            <div class="card-footer">{{data.user}}</div>
+          </div>
+        </div>
+      </ng-template>
+    </ng-template>
+  </div>
+</div>

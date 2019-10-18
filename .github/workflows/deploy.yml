@@ -24,4 +24,4 @@ jobs:
       - name: Install now.sh
         run: sudo npm install -g --unsafe-perm now
       - name: Deploy Now
-        run: cd ./dist/kaf-first-anniversary && now --prod -n kaf1st -t ${{secrets.ZEIT_TOKEN}}
+        run: cd ./dist/kaf-first-anniversary && now --prod -n kaf1th -t ${{secrets.ZEIT_TOKEN}}

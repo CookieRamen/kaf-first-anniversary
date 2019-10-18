@@ -176,7 +176,7 @@ export class QuestionnaireComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.show = true;
-    }, 3000);
+    }, 500);
   }
 
 }

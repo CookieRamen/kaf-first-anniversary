@@ -9,6 +9,7 @@ import {AnimationItem, LottieOptions} from 'ngx-lottie';
 export class AppComponent implements OnInit {
   isWait = true;
   isLoading = true;
+  isCollapsed = true;
 
   options: LottieOptions = {
     path: '/assets/animation.json'
@@ -19,7 +20,5 @@ export class AppComponent implements OnInit {
     setTimeout(() => this.isLoading = false, 6000);
   }
 
-  animationCreated(animationItem: AnimationItem): void {
-    console.log(animationItem);
-  }
+  animationCreated(animationItem: AnimationItem): void {}
 }

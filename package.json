@@ -1,6 +1,6 @@
 {
   "name": "kaf-first-anniversary",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,6 +21,7 @@
     "@angular/router": "~8.2.4",
     "@ng-bootstrap/ng-bootstrap": "^5.1.1",
     "@swimlane/ngx-charts": "^12.0.1",
+    "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
     "lottie-web": "^5.5.9",
     "ng-particle": "^1.0.10",

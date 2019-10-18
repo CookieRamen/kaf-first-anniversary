@@ -1,10 +1,10 @@
 .navbar-custom {
-  background: rgba(255, 255, 255, .9);
+  background: rgba(0, 0, 0, .9);
 }
 
 @supports (backdrop-filter: blur(5px) brightness(1.2)) {
   .navbar-custom {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(0, 0, 0, .5);
     backdrop-filter: blur(5px) brightness(1.2);
   }
 }
@@ -57,5 +57,21 @@
   }
   100% {
     opacity: 0;
+  }
+}
+
+.nav-item {
+  font-family: ta-candy,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+
+  a {
+    color: #fff;
+    transition: all .25s;
+    
+    &:hover {
+      color: #ee6cff;
+    }
   }
 }
